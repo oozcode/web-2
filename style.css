@@ -1,44 +1,62 @@
-#para1 {
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 40px;
-    background-color: brown;
+body{
+    background-color;
+    font-family: sans-serif;
+    background-color:black;
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
 }
-#para2 {
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 40px;
-    background-color: rebeccapurple;
+h3{
+    margin:auto;
+    text-align: center;
+    
 }
-#para3 {
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 40px;
-    background-color: springgreen;
+#para1{
+    margin-right:8%;
+    padding:3%;
+    background-color: pink;
+    height: 25%;
+    margin-left: 18%;
+    
+    
 }
-#para4 {
-    width: 60%;
-    margin: auto;
-    border: 1px solid black;
-    padding: 40px;
-    background-color: magenta;
+#para2{
+    margin-right:8%;
+    padding:3%;
+    background-color: cornflowerblue;
+    height: 25%;
+    margin-left: 18%;
+    
 }
-ul {
+#para3{
+    margin-right:8%;
+    
+    padding:3%;
+    height: 25%;
+    background-color: rgb(179, 77, 179);
+    margin-left: 18%;
+}
+#para4{
+    margin-right:8%;
+    padding:3%;
+    background-color: deepskyblue;
+    height: 25%;
+    margin-left: 18%;
+    margin-bottom: 100px;
+    
+}
+ul{ 
     position: absolute;
-    left: 0;
-    top: opx; /* Adjust as needed */
+    color: white;
+    width: 20%;
     text-align: left;
-    background-color: yellow;
-    padding: 30;
     list-style: none;
-    padding-bottom:100%;
+    top: 0px;
+    text-align: left;  
+    padding:30px;
+    padding-bottom: 100%;
+    
 }
-ul li {
-    margin-bottom: 50px;
-}
-ul:hover{
-    opacity:50%
+ul li:hover{
+    opacity:50%;
 }
