@@ -1,0 +1,44 @@
+#para1 {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: brown;
+}
+#para2 {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: rebeccapurple;
+}
+#para3 {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: springgreen;
+}
+#para4 {
+    width: 60%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 40px;
+    background-color: magenta;
+}
+ul {
+    position: absolute;
+    left: 0;
+    top: opx; /* Adjust as needed */
+    text-align: left;
+    background-color: yellow;
+    padding: 30;
+    list-style: none;
+    padding-bottom:100%;
+}
+ul li {
+    margin-bottom: 50px;
+}
+ul:hover{
+    opacity:50%
+}
